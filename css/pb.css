@@ -1,0 +1,29 @@
+﻿.bar {
+    border: 1px solid #666;
+    height: 20px;
+    width: 100%;
+}
+    .in
+{
+    animation: fill 60s linear 1;
+    height: 100%;
+    background-color: red;
+}
+
+.in300 {
+    animation: fill 300s linear 1;
+    height: 100%;
+    background-color: red;
+}
+
+
+
+@keyframes fill {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
